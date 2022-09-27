@@ -62,6 +62,12 @@ function Works() {
                         repo="https://github.com/alexis-orphant/Food-app"
                         description="Proyecto con: React Js y Tailwind CSS"
                     />
+                    <Proyects
+                        imgUrl={FoodApp}
+                        page="https://alexis-orphant.github.io/Food-app/"
+                        repo="https://github.com/alexis-orphant/Food-app"
+                        description="Proyecto con: React Js y Tailwind CSS"
+                    />
                 </div>
             </div>
         </div>
