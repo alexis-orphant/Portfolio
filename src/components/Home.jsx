@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowRight } from "react-icons/hi";
 import FotoCv from "../assets/2.jpg";
+import { Link } from "react-scroll";
 
 function Home() {
     return (
@@ -22,12 +23,14 @@ function Home() {
                     Desarrollador Full-stack
                 </p>
                 <div>
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-700">
-                        Ver Proyectos
-                        <span className="group-hover:rotate-90 duration-300">
-                            <HiArrowRight className="ml-3" />
-                        </span>
-                    </button>
+                    <Link to="proyects" smooth={true} duration={500}>
+                        <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-700">
+                            Ver Proyectos
+                            <span className="group-hover:rotate-90 duration-300">
+                                <HiArrowRight className="ml-3" />
+                            </span>
+                        </button>
+                    </Link>
                 </div>
             </div>
             <figure className="w-[250px] pt-5 mx-auto lg:w-[320px]">

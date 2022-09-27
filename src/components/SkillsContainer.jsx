@@ -1,9 +1,15 @@
 import React from "react";
 import Lenguajes from "./Lenguajes";
 
+import HTMLimg from "../assets/html.png";
+import CSSimg from "../assets/css.png";
+import JavaScript from "../assets/javascript.png";
+import ReactImg from "../assets/react.png";
+import GitHub from "../assets/github.png";
+import Tailwind from "../assets/tailwind.png";
+import Bootstrap from "../assets/bootstrap.png";
+
 function Skills() {
-
-
     return (
         <div
             name="skills"
@@ -21,7 +27,13 @@ function Skills() {
                 </div>
 
                 <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-                    <Lenguajes />
+                    <Lenguajes img={HTMLimg} alt="Html" />
+                    <Lenguajes img={CSSimg} alt="CSS" />
+                    <Lenguajes img={JavaScript} alt="JavaScript" />
+                    <Lenguajes img={ReactImg} alt="React" />
+                    <Lenguajes img={GitHub} alt="Git / GitHub" />
+                    <Lenguajes img={Tailwind} alt="Tailwind CSS" />
+                    <Lenguajes img={Bootstrap} alt="Bootstrap" />
                 </div>
             </div>
         </div>

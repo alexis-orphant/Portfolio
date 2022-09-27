@@ -36,7 +36,7 @@ function About() {
                     <div className="max-w-[1000px] pt-8 w-full px-4 grid grid-cols-2 gap-6">
                         <div className="sm:text-right pb-8 pl-4">
                             <p className="text-2xl font-bold inline border-b-4 border-pink-600">
-                                Educacion / Cursos
+                                Educación / Cursos
                             </p>
                         </div>
                         <div></div>
