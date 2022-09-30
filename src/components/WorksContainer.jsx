@@ -7,6 +7,7 @@ import Pomodoro from "../assets/pomodoro.jpg";
 import TicTacToe from "../assets/TicTacToe.jpg";
 import ReactTasks from "../assets/reactTasks.jpg";
 import FoodApp from "../assets/FoodApp.jpg";
+import NavBar from "../assets/NavBar.jpg";
 
 function Works() {
     return (
@@ -61,7 +62,12 @@ function Works() {
                         page="https://alexis-orphant.github.io/Food-app/"
                         repo="https://github.com/alexis-orphant/Food-app"
                         description="Proyecto con: React Js y Tailwind CSS"
-                        
+                    />
+                    <Proyects
+                        imgUrl={NavBar}
+                        page="https://alexis-orphant.github.io/NavBar/"
+                        repo="https://github.com/alexis-orphant/NavBar"
+                        description="Dark / Light mode NarBar: HTML, CSS, JS y Tailwind"
                     />
                 </div>
             </div>
