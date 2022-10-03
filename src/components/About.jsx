@@ -96,6 +96,14 @@ function About() {
                                 OpentBootcamp. Ago. 2022 - Sept. 2022
                             </p>
                         </div>
+                        <div className="sm:text-right text-2xl font-bold ">
+                            <p>Inglés</p>
+                        </div>
+                        <div>
+                            <p className="text-lg font-semibold">
+                                Escuela de inglés. Oct. 2022 - Actualmente estudiando 
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
