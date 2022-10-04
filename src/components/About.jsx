@@ -18,7 +18,7 @@ function About() {
                 <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                     <div className="sm:text-right text-4xl font-bold ">
                         <p>
-                            Hola!! Soy Alexis,es un placer que me conozcas,
+                            Hola!! Soy Alexis, es un placer que me conozcas,
                             échale un vistazo a mi Portfolio
                         </p>
                     </div>
@@ -52,11 +52,11 @@ function About() {
                             </p>
                         </div>
                         <div className="sm:text-right text-2xl font-bold ">
-                            <p>Ingenieria Mecanica</p>
+                            <p>Ingeniería Mecánica</p>
                         </div>
                         <div>
                             <p className="text-lg font-semibold">
-                                Universidad Tecnologica Nacional (UTN - FRLP).
+                                Universidad Tecnológica Nacional (UTN - FRLP).
                                 Feb. 2017 - Ago. 2017
                             </p>
                         </div>

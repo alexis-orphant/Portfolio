@@ -22,7 +22,7 @@ function Skills() {
                         Skills técnicas
                     </p>
                     <p className="py-4">
-                        Estas son las tecnologías con las que trabajo :
+                        Estas son las tecnologías con las que trabajo:
                     </p>
                 </div>
 

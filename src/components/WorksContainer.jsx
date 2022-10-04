@@ -20,7 +20,7 @@ function Works() {
                     <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
                         Proyectos
                     </p>
-                    <p className="py-6">Échale un vistazo a mis proyectos</p>
+                    <p className="py-6">Échale un vistazo a mis proyectos:</p>
                 </div>
 
                 {/* container */}
@@ -28,46 +28,53 @@ function Works() {
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {/* grid */}
                     <Proyects
+                        title="LeBron James page"
                         imgUrl={LebronPage}
                         page="https://alexis-orphant.github.io/pf-lebron/"
                         repo="https://github.com/alexis-orphant/pf-lebron"
-                        description="Primer página con: HTML, CSS (SASS) y Bootstrap "
+                        description="Página realizada en el curso de desarrollo web de 'CoderHouse'. Utilazando: HTML 5, CSS 3, SASS, Bootstrap"
                     />
                     <Proyects
+                        title="Rick & Morty E-commerce"
                         imgUrl={RickAndMorty}
                         page="https://alexis-orphant.github.io/Carrito-pf/"
                         repo="https://github.com/alexis-orphant/Carrito-pf"
-                        description="Primer proyecto con: JavaScript Vanilla"
+                        description="Proyecto realizado en el curso de JavaScript de 'CoderHouse'"
                     />
                     <Proyects
+                        title="Pomodoro"
                         imgUrl={Pomodoro}
                         page="https://alexis-orphant.github.io/pomodoro/"
                         repo="https://github.com/alexis-orphant/pomodoro"
-                        description="Pomodoro con: JavaScript Vanilla"
+                        description="Proyecto con: JavaScript Vanilla"
                     />
                     <Proyects
+                        title="Tic-Tac-Toe"
                         imgUrl={TicTacToe}
                         page="https://alexis-orphant.github.io/Tic-tac-toe/"
                         repo="https://github.com/alexis-orphant/Tic-tac-toe"
-                        description="Tic-Tac-Toe con: JavaScript Vanilla"
+                        description="Proyecto con: JavaScript Vanilla"
                     />
                     <Proyects
+                        title="React JS Tasks"
                         imgUrl={ReactTasks}
                         page="https://alexis-orphant.github.io/react-tasks/"
                         repo="https://github.com/alexis-orphant/react-tasks"
-                        description="Primer proyecto con: React Js"
+                        description="Primer proyecto con: React JS y Tailwind css"
                     />
                     <Proyects
+                        title="Food App"
                         imgUrl={FoodApp}
                         page="https://alexis-orphant.github.io/Food-app/"
                         repo="https://github.com/alexis-orphant/Food-app"
                         description="Proyecto con: React Js y Tailwind CSS"
                     />
                     <Proyects
+                        title="Dark / Light mode NarBar"
                         imgUrl={NavBar}
                         page="https://alexis-orphant.github.io/NavBar/"
                         repo="https://github.com/alexis-orphant/NavBar"
-                        description="Dark / Light mode NarBar: HTML, CSS, JS y Tailwind"
+                        description="Proyecto con: HTML 5, CSS 3, JavaScript y Tailwind"
                     />
                 </div>
             </div>
