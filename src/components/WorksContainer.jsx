@@ -46,7 +46,7 @@ function Works() {
                         imgUrl={Pomodoro}
                         page="https://alexis-orphant.github.io/pomodoro/"
                         repo="https://github.com/alexis-orphant/pomodoro"
-                        description="Proyecto con: JavaScript Vanilla"
+                        description="Proyecto con: JavaScript Vanilla y CSS 3"
                     />
                     <Proyects
                         title="Tic-Tac-Toe"

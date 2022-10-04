@@ -7,10 +7,10 @@ function Proyects({imgUrl, page, repo, description, title}) {
                 <div className="rounded-xl overflow-hidden">
                     <img src={imgUrl} alt="" />
                 </div>
-                <h5 className="text-xl  md:text-2xl font-bold mt-3 pb-1 border-b-2 border-pink-600">
+                <h5 className="text-xl  md:text-2xl font-bold mt-3 pb-1 ">
                     {title}
                 </h5>
-                <p className="text-lg text-center py-2 border-b-2 border-pink-600">
+                <p className="text-lg text-center py-2 ">
                     {description}
                 </p>
                 <div className="flex justify-center items-center pt-2">

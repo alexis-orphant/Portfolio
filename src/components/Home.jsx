@@ -2,6 +2,7 @@ import React from "react";
 import { HiArrowRight } from "react-icons/hi";
 import FotoCv from "../assets/2.jpg";
 import { Link } from "react-scroll";
+import CvPDF from "../assets/alexis-cv.pdf"
 
 function Home() {
     return (
@@ -31,6 +32,14 @@ function Home() {
                             </span>
                         </button>
                     </Link>
+                    <a href={CvPDF} target="_blank" download="Alexis Orphant CV">
+                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-700">
+                        Descargar CV
+                        <span className="group-hover:rotate-90 duration-300">
+                            <HiArrowRight className="ml-3" />
+                        </span>
+                    </button>
+                    </a>
                 </div>
             </div>
             <figure className="w-[250px] pt-5 mx-auto lg:w-[320px]">
