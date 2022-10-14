@@ -1,4 +1,8 @@
 import React from "react";
+import Cursos from "./Cursos";
+import DesarrolloWeb from "../assets/desarrollowebCertificado.png"
+import CertificadoJS from "../assets/javaScriptCertificado.png"
+import CertificadoOpenBootcampJS from "../assets/openbootcampJS.jpg";
 
 function About() {
     return (
@@ -42,68 +46,45 @@ function About() {
                         <div></div>
                     </div>
                     <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-                        <div className="sm:text-right text-2xl font-bold ">
-                            <p>Bachiller en Ciencias Sociales</p>
-                        </div>
-                        <div>
-                            <p className="text-lg font-semibold">
-                                Escuela Secundaria "Nuestra Señora de la
-                                Merced". Finalizado en 2016
-                            </p>
-                        </div>
-                        <div className="sm:text-right text-2xl font-bold ">
-                            <p>Ingeniería Mecánica</p>
-                        </div>
-                        <div>
-                            <p className="text-lg font-semibold">
-                                Universidad Tecnológica Nacional (UTN - FRLP).
-                                Feb. 2017 - Ago. 2017
-                            </p>
-                        </div>
-                        <div className="sm:text-right text-2xl font-bold ">
-                            <p>Diseño Industrial</p>
-                        </div>
-                        <div>
-                            <p className="text-lg font-semibold">
-                                Universidad Nacional de la Plata, Facultad de
-                                Bellas Artes. Feb. 2018 - Mar. 2020
-                            </p>
-                        </div>
-                        <div className="sm:text-right text-2xl font-bold ">
-                            <p>Curso de Desarrollo web</p>
-                        </div>
-                        <div>
-                            <p className="text-lg font-semibold">
-                                CoderHouse. Mar. 2022 - May. 2022.
-                            </p>
-                            <p className="text-lg font-semibold">
-                                (HTML 5, CSS 3, SASS, Git, GitHub, Bootstrap)
-                            </p>
-                        </div>
-                        <div className="sm:text-right text-2xl font-bold ">
-                            <p>Curso de JavaScript</p>
-                        </div>
-                        <div>
-                            <p className="text-lg font-semibold">
-                                CoderHouse. May. 2022 - Jul. 2022
-                            </p>
-                        </div>
-                        <div className="sm:text-right text-2xl font-bold ">
-                            <p>Curso de JavaScript</p>
-                        </div>
-                        <div>
-                            <p className="text-lg font-semibold">
-                                OpentBootcamp. Ago. 2022 - Sept. 2022
-                            </p>
-                        </div>
-                        <div className="sm:text-right text-2xl font-bold ">
-                            <p>Inglés</p>
-                        </div>
-                        <div>
-                            <p className="text-lg font-semibold">
-                                Escuela de inglés. Oct. 2022 - Actualmente estudiando 
-                            </p>
-                        </div>
+                        <Cursos
+                            title="Bachiller en Ciencias Sociales"
+                            description='Escuela Secundaria "Nuestra Señora de la
+                                Merced". Finalizado en 2016'
+                        />
+                        <Cursos
+                            title="Ingeniería Mecánica"
+                            description="Universidad Tecnológica Nacional (UTN - FRLP).
+                                Feb. 2017 - Ago. 2017"
+                        />
+                        <Cursos
+                            title="Diseño Industrial"
+                            description="Universidad Nacional de la Plata, Facultad de
+                                Bellas Artes. Feb. 2018 - Mar. 2020"
+                        />
+                        <Cursos
+                            title="Curso de Desarrollo web"
+                            description="CoderHouse. Mar. 2022 - May. 2022. (HTML 5, CSS 3, SASS, Git, GitHub, Bootstrap)"
+                            certificado={DesarrolloWeb}
+                        />
+                        <Cursos
+                            title="Curso de JavaScript"
+                            description="CoderHouse. May. 2022 - Jul. 2022"
+                            certificado={CertificadoJS}
+                        />
+                        <Cursos
+                            title="Curso de JavaScript"
+                            description="OpentBootcamp. Ago. 2022 - Sept. 2022"
+                            certificado={CertificadoOpenBootcampJS}
+                        />
+                        <Cursos
+                            title="Inglés"
+                            description="Escuela de inglés. Oct. 2022 - Actualmente
+                                estudiando"
+                        />
+                        <Cursos
+                            title="Curso de React JS"
+                            description="CoderHouse. Oct. 2022 - Actualmente cursando"
+                        />
                     </div>
                 </div>
             </div>
